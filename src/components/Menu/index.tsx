@@ -95,26 +95,26 @@ export default function Menu() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://sushiswap.vision/">
+          {/* <MenuItem id="link" href="https://sushiswap.vision/">
             <PieChart size={14} />
             {t('analytics')}
-          </MenuItem>
-          <MenuItem id="link" href="https://sushiswapclassic.org/staking">
+          </MenuItem> */}
+          <MenuItem id="link" href="https://vinoswap.org/staking">
             <DollarSign size={14} />
             {t('stake')}
           </MenuItem>
-          <MenuItem id="link" href="https://sushiswapclassic.org/farms">
+          <MenuItem id="link" href="https://vinoswap.org/farms">
             <Sunrise size={14} />
             {t('farm')}
           </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/AgJsrK7">
+          {/* <MenuItem id="link" href="https://discord.gg/AgJsrK7">
             <MessageCircle size={14} />
             {t('discord')}
           </MenuItem>
           <MenuItem id="link" href="https://github.com/jiro-ono/sushiswap-classic-interface">
             <Code size={14} />
             {t('code')}
-          </MenuItem>
+          </MenuItem> */}
         </MenuFlyout>
       )}
     </StyledMenu>
