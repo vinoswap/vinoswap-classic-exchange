@@ -110,11 +110,11 @@ export default function Menu() {
           {/* <MenuItem id="link" href="https://discord.gg/AgJsrK7">
             <MessageCircle size={14} />
             {t('discord')}
-          </MenuItem>
+          </MenuItem> */}
           <MenuItem id="link" href="https://github.com/jiro-ono/sushiswap-classic-interface">
             <Code size={14} />
             {t('code')}
-          </MenuItem> */}
+          </MenuItem>
         </MenuFlyout>
       )}
     </StyledMenu>
