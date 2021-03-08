@@ -95,10 +95,10 @@ export default function Menu() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
-          {/* <MenuItem id="link" href="https://sushiswap.vision/">
+          <MenuItem id="link" href="https://sushiswap.vision/">
             <PieChart size={14} />
             {t('analytics')}
-          </MenuItem> */}
+          </MenuItem>
           <MenuItem id="link" href="https://vinoswap.org/staking">
             <DollarSign size={14} />
             {t('stake')}
